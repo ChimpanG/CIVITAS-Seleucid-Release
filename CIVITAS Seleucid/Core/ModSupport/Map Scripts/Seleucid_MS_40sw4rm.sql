@@ -1,6 +1,6 @@
 /*
 	Mod Support 40sw4rm
-	Credits: SeelingCat, ChimpanG
+	Authors: SeelingCat, ChimpanG
 */
 
 -----------------------------------------------
@@ -18,4 +18,5 @@ CREATE TABLE IF NOT EXISTS TSL
 
 INSERT INTO TSL
 		(MapType,		Civ,							LeaderType,					X,	Y	)
-VALUES	('40sw4rmOW',	'CIVILIZATION_CVS_SELEUCID',	'LEADER_CVS_SELEUCUS_I',	63,	41	);
+VALUES	('40sw4rmOW',	'CIVILIZATION_CVS_SELEUCID',	'LEADER_CVS_SELEUCUS_I',	41,	42	),
+		('40sw4rmOW',	'CIVILIZATION_CVS_SELEUCID',	'LEADER_CVS_ANTIOCHUS_III',	48,	38	);

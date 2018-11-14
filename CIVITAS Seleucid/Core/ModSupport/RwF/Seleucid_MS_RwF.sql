@@ -1,6 +1,6 @@
 /*
 	Mod Support RwF
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------
@@ -60,14 +60,3 @@ VALUES	('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_CHIEFDOM',						NULL,					'LOC_
 		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_COMMUNISM',						NULL,					'LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_CVS_SELEUCID_FEMININE'		), -- People's Republic
 		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_FASCISM',						NULL,					'LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_CVS_SELEUCID_FEMININE'	), -- Military Guardianship
 		('CIVILIZATION_CVS_SELEUCID',	NULL,										'POLICY_JFD_EMPIRE',	'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_SELEUCID_FEMININE'				); -- Empire
-
-DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SELEUCID' AND GovernmentType IS NOT NULL AND GovernmentType NOT IN (SELECT GovernmentType FROM Governments);
-DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SELEUCID' AND PolicyType IS NOT NULL AND PolicyType NOT IN (SELECT PolicyType FROM Policies);				
-
-INSERT INTO Leader_Titles
-					(LeaderType, 				GovernmentType, 	PolicyType,		LeaderTitle	)
-SELECT DISTINCT		'LEADER_CVS_SELEUCUS_I',	GovernmentType,		PolicyType,		LeaderTitle
-FROM Civilization_Titles
-WHERE LeaderTitle
-NOT LIKE "%FEMININE"
-AND CivilizationType = 'CIVILIZATION_CVS_SELEUCID';

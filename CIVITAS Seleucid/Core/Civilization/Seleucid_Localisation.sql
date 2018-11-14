@@ -1,6 +1,6 @@
 /*
 	Localisation
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------
@@ -22,20 +22,20 @@ VALUES
 -- UA
 -----------------------------------------------
 
-	("LOC_TRAIT_CIVILIZATION_CVS_SELEUCID_UA_NAME",  	"Katoikia"	),
-	("LOC_TRAIT_CIVILIZATION_CVS_SELEUCID_UA_DESCRIPTION",		"Districts and Buildings are constructed 35% faster if they already exist in the [ICON_Capital] Capital."	),
+	("LOC_TRAIT_CIVILIZATION_CVS_SELEUCID_UA_NAME",				"Katoikia"	),
+	("LOC_TRAIT_CIVILIZATION_CVS_SELEUCID_UA_DESCRIPTION",		"Receive +35% [ICON_Production] Production towards Districts and Buildings if they already exist in the [ICON_Capital] Capital."	),
 	
 -----------------------------------------------
 -- UU
 -----------------------------------------------
 
-	("LOC_UNIT_CVS_SELEUCID_UU_NAME",		"Argyraspides"	),
+	("LOC_UNIT_CVS_SELEUCID_UU_NAME",		"Agryraspis"	),
 	("LOC_UNIT_CVS_SELEUCID_UU_DESCRIPTION",		  
 	"An anti-cavalry unit unique to Seleucid. Costs more than the Pikeman it replaces, but does not suffer combat penalties against Melee units. Provides adjacent Cavalry units additional [ICON_Strength] Combat Strength when attacking, and adjacent Anti-Cavalry units additional [ICON_Strength] Combat Strength when defending."),
 
 	("LOC_MODIFIER_CVS_SELEUCID_UU_ANTI_MELEE_DESCRIPTION",  	"+{1_Amount} Combat vs. Melee units"	),
-	("LOC_MODIFIER_CVS_SELEUCID_UU_CAV_DESCRIPTION",  	"+{1_Amount} from adjacent Argyraspides when attacking"	),
-	("LOC_MODIFIER_CVS_SELEUCID_UU_ANTICAV_DESCRIPTION",  	"+{1_Amount} from adjacent Argyraspides when defending"	),
+	("LOC_MODIFIER_CVS_SELEUCID_UU_CAV_DESCRIPTION",			"+{1_Amount} from adjacent Argyraspides"	),
+	("LOC_MODIFIER_CVS_SELEUCID_UU_ANTICAV_DESCRIPTION",  		"+{1_Amount} from adjacent Argyraspides"	),
 
 -----------------------------------------------
 -- UI
@@ -45,13 +45,14 @@ VALUES
 	("LOC_DISTRICT_CVS_SELEUCID_UI_DESCRIPTION",		
 	"A Commercial Hub replacement unique to Seleucid. Receives +1 [ICON_Gold] Gold from adjacent Farms and Pastures, and provides +1 [ICON_Food] Food for each building constructed within it on [ICON_TradeRoute] Trade Routes from this city. +1 [ICON_GreatPerson] Great Person Points toward [ICON_GreatGeneral] Great Generals."	),
 
-	("ADJ_CVS_SELEUCID_UI_FARM_GOLD",			"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Farm; other?Farms;}."	),
-	("ADJ_CVS_SELEUCID_UI_PASTURE_GOLD",		"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Pasture; other?Pastures;}."	),
+	("ADJ_CVS_SELEUCID_UI_FARM_GOLD",		"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Farm; other?Farms;}."		),
+	("ADJ_CVS_SELEUCID_UI_PASTURE_GOLD",	"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Pasture; other?Pastures;}."	),
 
 -----------------------------------------------
 -- Cities
 -----------------------------------------------
 
+	("LOC_CITY_NAME_SELEUKIA",  "Seleukia"),
 	("LOC_CITY_NAME_ANTIOCH",  "Antioch"), -- Already exists @ Antioch
 	("LOC_CITY_NAME_CTESIPHON",  "Ctesiphon"),
 	("LOC_CITY_NAME_SUSA",  "Susa"), -- Already exists @ Persia
@@ -67,6 +68,7 @@ VALUES
 	("LOC_CITY_NAME_SAMARKAND",  "Samarkand"),
 	("LOC_CITY_NAME_CARCHEMISH",  "Carchemish"),
 	("LOC_CITY_NAME_PERSEPOLIS",  "Persepolis"),
+	("LOC_CITY_NAME_BAKTRA",  "Baktra"),
 	("LOC_CITY_NAME_NAHAVAND",  "Nahavand"),
 	("LOC_CITY_NAME_CHARAX_SPASINOU",  "Charax Spasinou"),
 	("LOC_CITY_NAME_SELEUCIA_PIERIA",  "Seleucia Pieria"),

@@ -1,6 +1,6 @@
 /*
 	Mod Support YNAMP XP1
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

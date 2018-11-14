@@ -1,6 +1,6 @@
 /*
 	Localisation
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

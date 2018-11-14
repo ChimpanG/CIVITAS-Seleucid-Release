@@ -1,6 +1,6 @@
 /*
 	Icons
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

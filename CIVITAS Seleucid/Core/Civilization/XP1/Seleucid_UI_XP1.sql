@@ -1,6 +1,6 @@
 /*
 	Seleucid UI XP1
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

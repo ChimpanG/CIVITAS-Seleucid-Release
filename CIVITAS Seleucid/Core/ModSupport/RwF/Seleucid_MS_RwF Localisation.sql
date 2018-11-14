@@ -1,6 +1,6 @@
 /*
 	Mod Support RwF Localisation
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

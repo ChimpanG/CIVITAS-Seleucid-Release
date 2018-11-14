@@ -1,6 +1,6 @@
 /*
 	Mod Support 40sw4rm XP1
-	Credits: SeelingCat, ChimpanG
+	Authors: SeelingCat, ChimpanG
 */
 
 -----------------------------------------------

@@ -1,6 +1,6 @@
 /*
 	Seleucid UU XP1
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

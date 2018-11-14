@@ -1,6 +1,6 @@
 /*
 	UA
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

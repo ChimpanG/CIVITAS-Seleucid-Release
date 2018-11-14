@@ -1,6 +1,6 @@
 /*
 	Civilization
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------
@@ -25,7 +25,8 @@ VALUES	('CIVILIZATION_CVS_SELEUCID',	'LOC_CIVILIZATION_CVS_SELEUCID_NAME',	'LOC_
 
 INSERT INTO	CityNames
 		(CivilizationType,				CityName )
-VALUES	('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_ANTIOCH'),
+VALUES	('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_SELEUKIA'),
+		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_ANTIOCH'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_CTESIPHON'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_SUSA'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_SARDIS'),
@@ -40,6 +41,7 @@ VALUES	('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_ANTIOCH'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_SAMARKAND'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_CARCHEMISH'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_PERSEPOLIS'),
+		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_BAKTRA'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_NAHAVAND'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_CHARAX_SPASINOU'),
 		('CIVILIZATION_CVS_SELEUCID', 'LOC_CITY_NAME_SELEUCIA_PIERIA'),
@@ -110,6 +112,61 @@ VALUES	('CIVILIZATION_CVS_SELEUCID',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_CVS_S
 -----------------------------------------------
 
 INSERT INTO	StartBiasTerrains
-		(CivilizationType,				TerrainType,			Tier	)
-VALUES	('CIVILIZATION_CVS_SELEUCID',	'TERRAIN_GRASS_HILLS',	3		),
-		('CIVILIZATION_CVS_SELEUCID',	'TERRAIN_COAST',		5		);
+		(CivilizationType,				TerrainType,				Tier	)
+VALUES	('CIVILIZATION_CVS_SELEUCID',	'TERRAIN_GRASS_MOUNTAIN',	3		),
+		('CIVILIZATION_CVS_SELEUCID',	'TERRAIN_PLAINS_MOUNTAIN',	3		),
+		('CIVILIZATION_CVS_SELEUCID',	'TERRAIN_COAST',			5		);
+
+INSERT INTO	StartBiasFeatures
+		(CivilizationType,				FeatureType,			Tier	)
+VALUES	('CIVILIZATION_CVS_SELEUCID',	'FEATURE_FLOODPLAINS',	5		);
+
+-----------------------------------------------
+-- RequirementSets
+-----------------------------------------------
+
+INSERT INTO RequirementSets
+        (RequirementSetId,							RequirementSetType			)
+VALUES	('REQSET_CVS_SELEUCID_PLAYER_IS_SELEUCID',	'REQUIREMENTSET_TEST_ALL'	),
+		('REQSET_CVS_SELEUCID_IS_SELEUCID',			'REQUIREMENTSET_TEST_ANY'	);
+
+-----------------------------------------------
+-- RequirementSetRequirements
+-----------------------------------------------
+
+INSERT INTO RequirementSetRequirements
+        (RequirementSetId,							RequirementId							)
+VALUES	('REQSET_CVS_SELEUCID_PLAYER_IS_SELEUCID',	'REQ_CVS_SELEUCID_PLAYER_IS_SELEUCID'	);
+
+-----------------------------------------------
+-- Requirements
+-----------------------------------------------
+
+INSERT INTO Requirements
+		(RequirementId,							RequirementType						)
+VALUES	('REQ_CVS_SELEUCID_PLAYER_IS_SELEUCID',	'REQUIREMENT_REQUIREMENTSET_IS_MET'	);
+
+-----------------------------------------------
+-- RequirementArguments
+-----------------------------------------------
+
+INSERT INTO RequirementArguments
+		(RequirementId,							Name,				Value								)
+VALUES	('REQ_CVS_SELEUCID_PLAYER_IS_SELEUCID',	'RequirementSetId', 'REQSET_CVS_SELEUCID_IS_SELEUCID'	);
+
+-----------------------------------------------
+-- Support for Alternative Leaders
+-----------------------------------------------
+/*
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,					RequirementId						)
+VALUES	('REQSET_CVS_SELEUCID_IS_SELEUCID',	'REQ_CVS_SELEUCID_UI_IS_LEADERNAME'	);
+
+INSERT INTO Requirements
+		(RequirementId,						RequirementType								)
+VALUES	('REQ_CVS_SELEUCID_UI_LEADERNAME',	'REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES'	);
+
+INSERT INTO RequirementArguments
+		(RequirementId,						Name,			Value				)
+VALUES	('REQ_CVS_SELEUCID_UI_LEADERNAME',	'LeaderType',	'LEADER_LEADERNAME'	);
+*/

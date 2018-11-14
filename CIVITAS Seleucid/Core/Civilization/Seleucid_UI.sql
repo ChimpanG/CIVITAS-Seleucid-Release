@@ -1,6 +1,6 @@
 /*
 	UI
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------

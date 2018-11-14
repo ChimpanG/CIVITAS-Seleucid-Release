@@ -14,9 +14,9 @@
 		<Element>
 			<ConsumerName text="Units"/>
 			<ArtDefDependencyPaths>
+				<Element text="Cultures.artdef"/>
 				<Element text="Units.artdef"/>
 				<Element text="Unit_Bins.artdef"/>
-				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="Unit"/>
@@ -36,9 +36,9 @@
 		<Element>
 			<ConsumerName text="Landmarks"/>
 			<ArtDefDependencyPaths>
-				<Element text="Landmarks.artdef"/>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Cultures.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
@@ -76,7 +76,10 @@
 		<Element>
 			<ConsumerName text="StrategicView_Sprite"/>
 			<ArtDefDependencyPaths>
+				<Element text="Districts.artdef"/>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -151,7 +154,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UI"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="UserInterface.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="UITexture"/>
 			</LibraryDependencies>
@@ -179,7 +184,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UILensAsset"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -188,7 +195,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Overlay"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -302,13 +311,13 @@
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
 				<Element text="Civilizations.artdef"/>
-				<Element text="Units.artdef"/>
-				<Element text="Unit_Bins.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Leaders.artdef"/>
-				<Element text="Cultures.artdef"/>
+				<Element text="Units.artdef"/>
+				<Element text="Unit_Bins.artdef"/>
 				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -414,7 +423,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="RangeArrows"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -423,6 +434,10 @@
 		</Element>
 	</SystemDependencies>
 	<ArtDefDependencies>
+		<Element>
+			<ArtDefPath text="Cultures.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
 		<Element>
 			<ArtDefPath text="Units.artdef"/>
 			<ArtDefDependencyPaths>
@@ -439,19 +454,15 @@
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
+			<ArtDefPath text="Civilizations.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
 			<ArtDefPath text="Landmarks.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Landmarks.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="Civilizations.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Cultures.artdef"/>
-			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
 			<ArtDefPath text="StrategicView.artdef"/>
@@ -466,6 +477,14 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="UserInterface.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="Overlay.artdef"/>
+			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Leaders.artdef"/>
@@ -585,7 +604,9 @@
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="UI/LensAssets.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="UITexture"/>

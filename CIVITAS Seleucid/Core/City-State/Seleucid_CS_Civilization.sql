@@ -1,6 +1,6 @@
 /*
 	Civilization
-	Credits: ChimpanG
+	Authors: ChimpanG
 */
 
 -----------------------------------------------
@@ -18,7 +18,7 @@ WHERE	CivilizationType = 'CIVILIZATION_ANTIOCH';
 -----------------------------------------------
 
 UPDATE	CivilizationLeaders
-SET		CapitalName = 'LOC_CITY_NAME_CVS_SELEUCID_CS'
+SET		CapitalName = 'LOC_CITY_NAME_HORMUZ'
 WHERE	CivilizationType = 'CIVILIZATION_ANTIOCH';
 
 -----------------------------------------------
