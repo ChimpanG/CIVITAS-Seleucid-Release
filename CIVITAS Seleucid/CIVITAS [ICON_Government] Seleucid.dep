@@ -312,7 +312,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
-				<Element text="Leaders.artdef"/>
 				<Element text="Units.artdef"/>
 				<Element text="Unit_Bins.artdef"/>
 				<Element text="Landmarks.artdef"/>
@@ -324,9 +323,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderLighting"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -335,9 +332,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Leaders"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -347,9 +342,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderFallback"/>
-			<ArtDefDependencyPaths>
-				<Element text="LeaderFallbacks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="LeaderFallback"/>
 			</LibraryDependencies>
@@ -486,14 +479,6 @@
 			<ArtDefPath text="Overlay.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
-		<Element>
-			<ArtDefPath text="Leaders.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="LeaderFallbacks.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
 	</ArtDefDependencies>
 	<LibraryDependencies>
 		<Element>
@@ -530,9 +515,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="LeaderFallback"/>
-			<PackageDependencies>
-				<Element text="LeaderFallbacks.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="LeaderLighting"/>
