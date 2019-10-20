@@ -4,6 +4,7 @@
     <Name>CIVITAS [ICON_GOVERNMENT] Seleucid</Name>
     <Description>Adds Seleucid as a new civilization in Civilization VI</Description>
     <CustomProperties></CustomProperties>
+    <Created>1571583780</Created>
     <Teaser>Adds Seleucid as a new civilization in Civilization VI</Teaser>
     <Authors>ChimpanG</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -107,137 +108,6 @@
     <File>Core/Seleucid_UU.sql</File>
     <File>Core/Seleucid_XP1.sql</File>
     <File>Core/Seleucid_XP2.sql</File>
-    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_CombatIdlePoseA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_CombatIdlePoseB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_CombatIdlePoseC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_DodgeBack</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_IdleA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_IdleB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_IdleC</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_IdleD</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_JumpStabFlipUnitInAir</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_PokeAttack</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_React</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_RunFwdA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_SpawnA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_StrafeBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_StrafeFwdA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Hoplite_VictoryA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Argyraspides_Shield_ao3</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Argyraspides_Shield_g4</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Argyraspides_Shield_m5</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Argyraspides_Shield_n5a0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Argyraspides_Shield_n5a1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Overlay_Seleucid</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CVS_Pressure_Seleucid</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Argyraspides_ArmorA_a4_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Argyraspides_Shield_a5_Argyraspides_Shield_t3</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Agora_Brazier_a_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Agora_BuildingA_a2_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Agora_Planter_a4_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_THR_Base_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Grass_Dark_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Water_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_Bolshoi_Theatre_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_A</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_E</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_THR_Base_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatGeneralClassical_A_ao</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatGeneralClassical_A_g</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatGeneralClassical_A_m</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatGeneralClassical_A_n0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatGeneralClassical_A_n1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Colossal_Heads_A</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Colossal_Heads_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Colossal_Heads_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Colossal_Heads_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Perfectly_Smooth_Gloss</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterNonTiling_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterNonTiling_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterNonTiling_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTiling_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTiling_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WaterTiling_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Water_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Bolshoi_Theatre_A</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Bolshoi_Theatre_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Bolshoi_Theatre_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Bolshoi_Theatre_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Bolshoi_Theatre_N1</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Mahabodi_Temple_AO</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Mahabodi_Temple_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Mahabodi_Temple_M</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Mahabodi_Temple_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_Mahabodi_Temple_N1</File>
-    <File>Platforms/MacOS/BLPs/strategicview/strategicview_districts.blp</File>
-    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/UI/LensAssets.blp</File>
-    <File>Platforms/MacOS/BLPs/units/units.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
